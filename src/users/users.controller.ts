@@ -5,6 +5,6 @@ import {CreateUserDto} from "./dtos/create-user.dto";
 export class UsersController {
     @Post("/signup")
     signUp(@Body() body: CreateUserDto) {
-
+        console.log(body);
     }
 }
